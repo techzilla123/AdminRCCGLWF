@@ -52,10 +52,11 @@
         '@': path.resolve(__dirname, './src'),
       },
     },
-    build: {
-      target: 'esnext',
-      outDir: 'build',
-    },
+build: {
+  target: 'esnext',
+  outDir: 'dist', // ✅ change 'build' to 'dist'
+},
+
     server: {
       port: 3000,
       open: true,
